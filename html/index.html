@@ -5,57 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
 
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
-    <header>
-        <h1>Moon Blog</h1>
-        <p>Welcome to my personal blog</p>
-    </header>
-    <div class="container">
-        <section>
-            <ul class="navbar">
-                <li><a href="#about-me">Personal Data</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Professional Experience</a></li>
-            </ul>
-        </section>
-        <aside>
-            <img src="../images/main.jpg.webp" alt="main image">
-            <h2>About me</h2>
-            <p>
-                A hard working student from beautiful country Nepal.
-                Passionate about Frontend web development and want to explore backend.
-                familiar with: HTML, CSS, Javascript, Angularjs, GIT. 
-            </p>
+        <header>
+            <h1>Moon Blog</h1>
+            <p>Welcome to my personal blog</p>
+        </header>
 
-            <h2>Education</h2>
-            <p><strong>Tribhuwan University</strong></p>
-            <p>Bachelor in Computer Science and Information Technology <br> Graduated: 2022</p>
+        <div class="wrapper">
+            
+            <section>
 
-            <h2>Work Experience</h2>
-            <table>
-                <tr>
-                    <th>Company</th>
-                    <th>Location</th>
-                    <th>Languages</th>
-                    <th>Position</th>
-                    <th>Date</th>
-                </tr>
-                <tr>
-                    <td>ITONICS Pvt Ltd</td>
-                    <td>Location</td>
-                    <td>Angularjs</td>
-                    <td>Associate Frontend Developer</td>
-                    <td>May 2022 - April 2023</td>
-                </tr>
-            </table>
+                <img src="../images/main.jpg.webp" alt="main image">
 
-        </aside>
-        
-    </div>
-    <footer>
+                <h1 id="about-me">Muna Rai</h1>
+                <p>Address: 29 Wandering Trail</p>
+                <p>Email: munarai@gmail.com</p>
+                <p>(678) 778 987</p>
 
-    </footer>
+                <h2 id="about-me">About me</h2>
+                <p>
+                    A hard working student from beautiful country Nepal.
+                    Passionate about Frontend web development and want to explore backend.
+                    familiar with: HTML, CSS, Javascript, Angularjs, GIT. 
+                </p>
+    
+                <h2 id="education">Education</h2>
+                <p><strong>Tribhuwan University</strong></p>
+                <p>Bachelor in Computer Science and Information Technology <br> Graduated: 2022</p>
+    
+                <h2 id="experience">Work Experience</h2>
+                <table border="1">
+                    <tr>
+                        <th>Company</th>
+                        <th>Location</th>
+                        <th>Languages</th>
+                        <th colspan="2">Position and Date</th>
+                    </tr>
+                    <tr>
+                        <td>ITONICS Pvt Ltd</td>
+                        <td>Nepal</td>
+                        <td>Angularjs</td>
+                        <td>Associate Frontend Developer</td>
+                        <td>May 2022 - April 2023</td>
+                    </tr>
+                </table>
+            </section>
+
+            <aside>
+                <ul>
+                    <li><a href="#about-me">Personal Data</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Professional Experience</a></li>
+                    <li><a href="">Achievements</a></li>
+                    <li><a href="">Travel Dump</a></li>
+                </ul>
+            </aside>
+            
+        </div>
+        <footer>
+            &copy; 2023 Moon Blog. All right reserved.
+        </footer>
 </body>
 </html>
