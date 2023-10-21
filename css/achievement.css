@@ -65,4 +65,8 @@ footer{
     .wrapper{
         flex-direction: column;
     }
+
+    section{
+        margin-right: 0;
+    }
 }
